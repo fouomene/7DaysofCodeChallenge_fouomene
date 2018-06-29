@@ -1,0 +1,249 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/arbleu">
+
+        <include layout="@layout/tool_bar" />
+
+    <!-- Master layout. -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#c8ffffff"
+            android:layout_marginBottom="6dp">
+
+            <LinearLayout
+                android:gravity="center_vertical|center"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/title_photo_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:text="@string/profil_activity_message1"
+
+                    android:layout_weight="7"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_photo_imageview"
+                    android:background="@drawable/selector_edit" />
+
+
+
+            </LinearLayout>
+
+            <net.freelancertech.journal.app.custom.ProportionalImageView
+                android:id="@+id/photo_imageview"
+                android:layout_width="232dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                />
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="#c8ffffff"
+            android:layout_marginBottom="6dp"
+            >
+
+            <TextView
+                android:id="@+id/email_profile_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:text="@string/profil_activity_message1"
+                />
+
+
+
+        </LinearLayout>
+
+
+           <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:background="#c8ffffff"
+                android:layout_marginBottom="6dp"
+                >
+
+                <TextView
+                    android:id="@+id/nom_profile_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:text="@string/profil_activity_message1"
+
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nom_imageview"
+                    android:background="@drawable/selector_edit"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:background="#c8ffffff"
+                android:layout_marginBottom="6dp"
+                >
+
+                <TextView
+                    android:id="@+id/prenom_profile_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:text="@string/profil_activity_message1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/prenom_imageview"
+                    android:background="@drawable/selector_edit"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:background="#c8ffffff"
+                android:layout_marginBottom="6dp"
+                >
+
+                <TextView
+                    android:id="@+id/matricule_profile_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:text="@string/profil_activity_message1"
+                    />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="#c8ffffff"
+            android:layout_marginBottom="6dp"
+            >
+
+            <TextView
+                android:id="@+id/operateur_profile_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:text="@string/profil_activity_message1"
+
+                />
+
+            <TextView
+                android:id="@+id/telephone_profil_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black"
+                android:text="@string/profil_activity_message1"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+

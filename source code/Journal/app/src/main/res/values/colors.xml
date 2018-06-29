@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <color name="primary">#008800</color>
+        <color name="primary_dark">#005B00</color>
+        <color name="accent">#008800</color>
+        <color name="fragment_bg">#e5e5e5</color>
+
+        <color name="white">#FFFFFF</color>
+        <color name="grey">#cccccc</color>
+        <color name="grey_700">#646464</color>
+        <color name="black">#000000</color>
+
+
+        <color name="doodle_light_green">#FFF32E</color>
+        <color name="doodle_green">#008800</color>
+        <color name="doodle_dark_green">#008800</color>
+        <color name="red">#fd0303</color>
+
+
+
+
+
+    <color name="paper_line">#FFE29D</color>
+    <color name="commentaire">#FAD32B</color>
+
+    <color name="red_dark">#1C662F</color>
+    <color name="marron">#D9B17E</color>
+    <color name="jaune">#FDBE00</color>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Master layout. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffffff"
+        android:padding="10dp">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/telephone"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <net.freelancertech.journal.app.custom.ProportionalImageView
+            android:src="@drawable/splashinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="@string/app_name"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Author : FOUOMENE PEWO Daniel Rene"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Email :  fouomenedaniel@gmail.com"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Blog :  www.fouomene.com"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

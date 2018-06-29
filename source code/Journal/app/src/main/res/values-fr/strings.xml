@@ -1,0 +1,484 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!--
+ Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+ It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+ or something similar.
+ -->
+    <string name="app_name">Journal Doodle</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Mes Paramètres</string>
+    <string name="action_share">Partager</string>
+    <string name="action_actualiser">Actualiser</string>
+    <string name="action_apropos">A Propos</string>
+    <string name="action_send">Ajoute une note</string>
+    <string name="action_deconnexion">Deconnexion</string>
+
+    <!-- Menu label to fetch updated doodle info from the server -->
+    <string name="title_activity_detail">Detail de l\'annonce</string>
+    <string name="title_activity_settings">Paramètres</string>
+
+    <!-- Label for the year preference [CHAR LIMIT=30] -->
+    <string name="pref_year_label">Annee</string>
+
+    <!-- Label for the month preference [CHAR LIMIT=30] -->
+    <string name="pref_month_label">Notes du Mois de </string>
+
+    <!-- Label for the telephone etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_telephone_label">Téléphone</string>
+
+    <!-- Label for the operateur etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_operateur_label">Operateur</string>
+
+    <!-- Label for the nom etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_nom_label">Nom</string>
+
+    <!-- Label for the prenom etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_prenom_label">Prenom</string>
+
+    <!-- Label for the matricule etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_matricule_label">Matricule</string>
+
+    <!-- Label for the email etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_email_label">Email</string>
+
+    <!-- Label for the isdelegue etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_isdelegue_label">Delegue</string>
+
+    <!-- Label for the isadmin preference [CHAR LIMIT=30] -->
+    <string name="pref_isadmin_label">Admin</string>
+
+    <!-- Label for the position preference [CHAR LIMIT=30] -->
+    <string name="pref_position_label">position</string>
+
+    <!-- Label for the intervalle preference [CHAR LIMIT=30] -->
+    <string name="pref_intervalle_label">intervalle</string>
+
+    <!-- Label for the motcle preference [CHAR LIMIT=30] -->
+    <string name="pref_motcle_label">motcle</string>
+
+    <!-- Label for the motcle preference [CHAR LIMIT=30] -->
+    <string name="pref_monmotcle_label">Mon mot clé de recherche</string>
+
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">journal.freelancertech.net</string>
+    <string name="content_authority">net.freelancertech.journal.app</string>
+    <string name="textload">Objet</string>
+    <string name="textmessage">Détail</string>
+    <string name="nodoodlefound">Pas de notes trouvé ce mois</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification"> <xliff:g id="title">%1$s</xliff:g> Date: <xliff:g id="rundate">%2$s</xliff:g></string>
+
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+
+    <string name="pref_enable_notifications_label">Notification Automatique</string>
+
+    <string name="pref_enable_notifications_true">Activer</string>
+    <string name="pref_enable_notifications_false">Desactiver</string>
+
+    <string name="title_activity_login">Journal Doodle</string>
+    <string name="title_activity_send">Ajouter une note</string>
+
+    <string name="notify"> nouvelle(s) note(s) de Journal Doodle</string>
+    <string name="motdepasse">Mot de passe :</string>
+    <string name="login">Connexion</string>
+    <string name="suivant">Suivant</string>
+    <string name="abonner">S\'abonner</string>
+    <string name="numerotelephone">Entrer votre numéro de téléphone</string>
+    <string name="addressemail">Entrer votre adresse mail</string>
+    <string name="message">Note* :</string>
+    <string name="objet">Titre* :</string>
+
+    <string name="objetmajuscule">TITRE NOTE :</string>
+    <string name="messagemauscule">DETAIL :</string>
+    <string name="date">DATE :</string>
+    <string name="detail">DÉTAIL : </string>
+
+
+    <!-- message Login-->
+    <string name="login_activity_message1">Veuillez entrer votre mail et le mot de passe!!</string>
+    <string name="login_activity_message2">Journal Doodle ne reconnaît pas ce mail !!</string>
+    <string name="login_activity_message3">Veuillez entrer votre Mot de passe !!</string>
+    <string name="login_activity_message4">Le mail ne correspondent pas! </string>
+
+    <!-- message main-->
+    <string name="main_activity_message1">Désolé, vous n\'êtes pas autorisé.</string>
+    <string name="main_activity_message2">Compte supprimé !!</string>
+
+    <!-- message send-->
+    <string name="send_activity_message2">Note enregistrée avec succès !!</string>
+    <string name="send_activity_message5">Veuillez entrer le titre et le contenu de la note !!</string>
+
+    <string name="system_message_internet">Votre connexion internet est très lente, vérifier et réessayer !!</string>
+
+    <string name="system_message_server">Serveur indisponible pour le moment!!!</string>
+
+    <string name="system_message_internet2">Pas de connexion internet</string>
+
+    <string name="system_message_internet3">Imposible d\'afficher la liste des commentaires, pas de connexion internet</string>
+
+    <string name="photo_message_internet1">Erreur lors de la mise à jour, Serveur indisponible pour le moment!!!</string>
+    <string name="photo_message_internet2">Démarrage de la mise à jour</string>
+    <string name="photo_message_internet3">Vous devez selectionner une photo dans la galerie, avant la mise à jour !</string>
+    <string name="photo_message_internet4">Vous n\'avez pas selectionné de photo !</string>
+    <string name="photo_message_internet5">Quelque chose a mal tourné !</string>
+    <string name="photo_message_internet6">Appel du transfère !</string>
+    <string name="photo_message_internet7">La mise à jour est en cours...</string>
+    <string name="photo_message_internet8">Mise à jour effectuée !</string>
+
+    <!-- message inscription-->
+    <string name="incscription_activity_infoetudiant">Informations</string>
+    <string name="inscription_activity_pays">Pays*</string>
+    <string name="inscription_activity_select_pays">Selectionner votre pays</string>
+    <string name="inscription_activity_telephone">Numéro de Téléphone*</string>
+    <string name="inscription_activity_telephone_operateur">Operateur de votre numéro de téléphone*</string>
+    <string name="inscription_activity_nom">Nom*</string>
+    <string name="inscription_activity_prenom">Prenom*</string>
+    <string name="inscription_activity_matricule">Matricule*</string>
+    <string name="inscription_activity_email">Email*</string>
+    <string name="inscription_activity_motdepasse">Mot de passe*</string>
+    <string name="inscription_activity_confirmermotdepasse">Confirmer le Mot de passe*</string>
+    <string name="inscription_activity_enregister">Enregister</string>
+    <string name="inscription_activity_annuler">Annuler</string>
+    <string name="inscription_activity_message7">Veuillez selectionnner ou enter tous les champs obligatoires!!</string>
+    <string name="inscription_activity_message8">Le mot de passe de confirmation doit être égale au mot de passe!!</string>
+    <string name="inscription_activity_message9">Le format du numéro de téléphone n\'est pas respecter</string>
+    <string name="inscription_activity_message10">Inscription effectuée,</string>
+    <string name="inscription_activity_message11">Bienvenue</string>
+    <string name="inscription_activity_message12">Désolé, mais cette adresse e-mail est invalide !!</string>
+    <string name="titlebar_main_activity">Liste des notes</string>
+    <string name="inscription_activity_titlebar">Inscription</string>
+    <string name="detail_activity_titlebar">Détail</string>
+    <string name="send_activity_titlebar">Ajouter une note</string>
+
+    <string name="desabonner_activity_message3">CONFIRMATION</string>
+    <string name="desabonner_activity_message4">Se désabonner</string>
+    <string name="desabonner_activity_message5">Désabonnement effectué !!</string>
+
+    <string name="titleabonner">Champs : (*)obligatoire.</string>
+
+    <string name="supprimer">Supprimer</string>
+
+    <string name="profil_activity_titlebar">Mon Profil</string>
+    <string name="detail_profil_activity_titlebar">Detail Profil</string>
+    <string name="pays_activity_titlebar">Sélectionner votre pays</string>
+    <string name="profil_activity_message1">Photo de profil</string>
+    <string name="profil_activity_message3">Impossible de changer votre numéro de téléphone. Pour changer votre numéro téléphone, supprimer votre compte et recréer votre compte avec le nouveau numéro.</string>
+
+    <string name="editer">Editer</string>
+    <string name="edition">EDITION</string>
+    <string name="newvalue">Nouvelle valeur</string>
+
+    <string name="logintel_activity_sabonner"><u>Créer un compte</u></string>
+
+
+    <string name="nav_libelle_annonce">Liste de notes</string>
+    <string name="nav_libelle_compte">Compte</string>
+    <string name="nav_libelle_help">Aide et Règles</string>
+
+    <string name="message_activity_detail">Le Délégué</string>
+
+    <string name="commenter_information">Commenter la notes</string>
+    <string name="votre_commentaire">Saisir votre commentaire :</string>
+    <string name="actuliser_commentaire">Actualiser la liste des commentaires</string>
+    <string name="commentaires">LISTE DES COMMENTAIRES :</string>
+    <string name="signaler_detail"><![CDATA[> ]]>  <u>Editer</u></string>
+    <string name="supprimer_detail"><![CDATA[> ]]> <u>Supprimer</u></string>
+
+    <string name="commentaire">COMMENTAIRE</string>
+    <string name="commenter">Commenter</string>
+    <string name="commentaire_publie">Commentaire Publié !!</string>
+
+    <string name="raison">RAISON</string>
+    <string name="signaler">Signaler</string>
+
+    <string name="vide">Ne doit pas être vide</string>
+
+    <string name="auteurs">Auteurs : Fouomene Daniel</string>
+    <string name="pageaccueil">www.fouomene.com</string>
+
+
+    <string name="telephone">Application Officielle</string>
+    <string name="email">fouomenedaniel@gmail.com</string>
+
+
+    <string-array name="country_names" >
+        <item>Cameroun</item>
+        <item>Gabon</item>
+        <item>Afghanistan</item>
+        <item>Afrique du Sud</item>
+        <item>Albanie</item>
+        <item>Algérie</item>
+        <item>Allemagne</item>
+        <item>Andorre</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua-et-Barbuda</item>
+        <item>Arabie Saoudite</item>
+        <item>Argentine</item>
+        <item>Arménie</item>
+        <item>Aruba</item>
+        <item>Ascension</item>
+        <item>Australie</item>
+        <item>Autriche</item>
+        <item>Azerbaïdjan</item>
+        <item>Bahamas</item>
+        <item>Bahreïn</item>
+        <item>Bangladesh</item>
+        <item>Barbade</item>
+        <item>Belgique</item>
+        <item>Belize</item>
+        <item>Bénin</item>
+        <item>Bermudes</item>
+        <item>Bhoutan</item>
+        <item>Biélorussie</item>
+        <item>Birmanie</item>
+        <item>Bolivie</item>
+        <item>Bosnie-Herzégovine</item>
+        <item>Botswana</item>
+        <item>Brésil</item>
+        <item>Brunei</item>
+        <item>Bulgarie</item>
+        <item>BurkinaFaso</item>
+        <item>Burundi</item>
+        <item>Cambodge</item>
+        <item>Canada</item>
+        <item>Cap-Vert</item>
+        <item>Îles Caïmans</item>
+        <item>République Centrafricaine</item>
+        <item>Chili</item>
+        <item>Chine</item>
+        <item>Chypre</item>
+        <item>Colombie</item>
+        <item>Comores</item>
+        <item>République Démocratique Congo</item>
+        <item>République Congo</item>
+        <item>ÎlesCook</item>
+        <item>Corée du Nord</item>
+        <item>Corée du Sud</item>
+        <item>Costa Rica</item>
+        <item>Côte dIvoire</item>
+        <item>Croatie</item>
+        <item>Cuba</item>
+        <item>Curaçao</item>
+        <item>Danemark</item>
+        <item>Djibouti</item>
+        <item>République dominicaine</item>
+        <item>Dominique</item>
+        <item>Égypte</item>
+        <item>Émirats</item>
+        <item>Équateur</item>
+        <item>Érythrée</item>
+        <item>Espagne</item>
+        <item>Estonie</item>
+        <item>États-Unis</item>
+        <item>Éthiopie</item>
+        <item>Îles Féroé</item>
+        <item>Fidji</item>
+        <item>Finlande</item>
+        <item>France</item>
+        <item>Gambie</item>
+        <item>Géorgie</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Grèce</item>
+        <item>Grenade</item>
+        <item>Groenland</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinée</item>
+        <item>Guinée Equatoriale</item>
+        <item>Guinée-Bissau</item>
+        <item>Guyana</item>
+        <item>Guyane</item>
+        <item>Haïti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hongrie</item>
+        <item>Inde</item>
+        <item>Indonésie</item>
+        <item>Irak</item>
+        <item>Iran</item>
+        <item>Irlande</item>
+        <item>Islande</item>
+        <item>Israël</item>
+        <item>Italie</item>
+        <item>Jamaïque</item>
+        <item>Japon</item>
+        <item>Jordanie</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kirghizistan</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Koweït</item>
+        <item>Laos</item>
+        <item>Lesotho</item>
+        <item>Lettonie</item>
+        <item>Liban</item>
+        <item>Libéria</item>
+        <item>Libye</item>
+        <item>Liechtenstein</item>
+        <item>Lituanie</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macédoine</item>
+        <item>Madagascar</item>
+        <item>Malaisie</item>
+        <item>Malawi</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malouines</item>
+        <item>Malte</item>
+        <item>Îles Mariannes</item>
+        <item>Maroc</item>
+        <item>Îles Marshall</item>
+        <item>Martinique</item>
+        <item>Maurice</item>
+        <item>Mauritanie</item>
+        <item>Mayotte</item>
+        <item>Mexique</item>
+        <item>Micronésie</item>
+        <item>Moldavie</item>
+        <item>Monaco</item>
+        <item>Mongolie</item>
+        <item>Monténégro</item>
+        <item>Montserrat</item>
+        <item>Mozambique</item>
+        <item>Namibie</item>
+        <item>Nauru</item>
+        <item>Népal</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norvège</item>
+        <item>Nouvelle-Calédonie</item>
+        <item>Nouvelle-Zélande</item>
+        <item>Oman</item>
+        <item>Ouganda</item>
+        <item>Ouzbékistan</item>
+        <item>Pakistan</item>
+        <item>Palaos</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papouasie-Nouvelle-Guinée</item>
+        <item>Paraguay</item>
+        <item>Pays-Bas</item>
+        <item>Pays-BasCaribéens</item>
+        <item>Pérou</item>
+        <item>Philippines</item>
+        <item>Îles Pitcairn</item>
+        <item>Pologne</item>
+        <item>Polynésie</item>
+        <item>PortoRico</item>
+        <item>Portugal351</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Roumanie</item>
+        <item>Royaume-Uni</item>
+        <item>Russie</item>
+        <item>Rwanda</item>
+        <item>Saint-Christophe-et-Niévès</item>
+        <item>Sainte-Hélène</item>
+        <item>Sainte-Lucie</item>
+        <item>Saint-Marin</item>
+        <item>Saint-Martin</item>
+        <item>Saint-Pierre-et-Miquelon</item>
+        <item>Saint-Vincent-et-les-Grenadines</item>
+        <item>Salomon</item>
+        <item>Salvador</item>
+        <item>Samoa</item>
+        <item>Samoa Américaines</item>
+        <item>SaoTomé-et-Principe</item>
+        <item>Sénégal</item>
+        <item>Serbie</item>
+        <item>Seychelles</item>
+        <item>SierraLeone</item>
+        <item>Singapour</item>
+        <item>Sint Maarten</item>
+        <item>Slovaquie</item>
+        <item>Slovénie</item>
+        <item>Somalie</item>
+        <item>Soudan</item>
+        <item>Soudan du Sud</item>
+        <item>SriLanka</item>
+        <item>Suède</item>
+        <item>Suisse</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Syrie</item>
+        <item>Tadjikistan</item>
+        <item>Tanzanie</item>
+        <item>République Chine Taïwan</item>
+        <item>Tchad</item>
+        <item>République Tchèque</item>
+        <item>Indien</item>
+        <item>Île Christmas</item>
+        <item>Thaïlande</item>
+        <item>TimorOriental</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinité-et-Tobago</item>
+        <item>Tunisie</item>
+        <item>Turkménistan</item>
+        <item>îles Turques-et-Caïques</item>
+        <item>Turquie</item>
+        <item>Tuvalu</item>
+        <item>Ukraine</item>
+        <item>Uruguay</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Îles Vierge sÉtats-Unis</item>
+        <item>Îles Vierges britanniques</item>
+        <item>République socialiste Viêt</item>
+        <item>Wallis-et-Futuna</item>
+        <item>Yémen</item>
+        <item>Zambie</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+
+    <string name="fichier">Touchez l\'image pour l\'agrandir</string>
+    <string name="joindre">Joindre une image</string>
+    <string name="fichier_message_internet2">Démarrage</string>
+    <string name="fichier_message_internet3">Vous devez sélectionner une image dans la galerie!</string>
+    <string name="fichier_message_internet4">Vous n\'avez pas sélectionné une image !</string>
+    <string name="fichier_message_internet7">Le chargement est en cours, attendez un moment s\'il vous plait...</string>
+    <string name="fichier_message_internet8">Jointure effectuée !</string>
+    <string name="fichier_message_internet1">Erreur lors de la jointure, Serveur indisponible pour le moment!!!</string>
+    <string name="siteweb">Le site Web officiel</string>
+    <string name="telecharger">Télécharger l\'image</string>
+    <string name="telecharger_message">Image téléchargée, veuillez regarder dans le repertoire \'journal\' de votre memoire.</string>
+
+    <string name="url">URL</string>
+    <string name="load">Veuillez patienter, chargement de la page en cours...</string>
+   <string name="motcle">Saisir un Mot Clé</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="rechercheroffre">Rechercher une note</string>
+    <string name="inscription_activity_lire">Lire*</string>
+    <string name="inscription_activity_termes"><u>Les Termes et Conditions d\'utilisation</u></string>
+    <string name="inscription_activity_accepte">Oui j\'ai lu et j\'accepte les termes et conditions.</string>
+    <string name="inscription_activity_message_confirmation">Implique que vous avez lu et accepté les termes et conditions d\'utilisation</string>
+    <string name="inscription_activity_message13">Veuillez lire et accepter les Termes et Conditions d\'utilisation!!!</string>
+
+    <string name="supprimer_information_confirmation">Cette operation supprimera la note et sa fil de commentaires.</string>
+    <string name="supprimer_commentaire_confirmation">Cette operation supprimera le commentaire.</string>
+    <string name="entrer_votre_mot_de_passe">Entrer votre mot de passe</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:background="@drawable/touch_selector"
+    >
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:background="#c8ffffff">
+
+        <ImageView
+            android:id="@+id/list_item_doodle_imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_mail"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="6dp">
+
+
+            <TextView
+                android:id="@+id/list_item_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="Changement de programme de l'unité d'enseignement"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/list_item_rundate_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="21/11/2015"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,1073 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!--
+ Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+ It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+ or something similar.
+ -->
+    <string name="app_name">Journal Doodle</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">My Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_actualiser">Actualise</string>
+    <string name="action_apropos">About</string>
+    <string name="action_send">Send a new</string>
+    <string name="action_deconnexion">Disconnect</string>
+
+    <!-- Menu label to fetch updated doodle info from the server -->
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Label for the year preference [CHAR LIMIT=30] -->
+    <string name="pref_year_label">Year</string>
+
+    <!-- Key name for storing year in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_year_key" translatable="false" >Annee</string>
+
+    <!-- Default year preference [CHAR LIMIT=NONE] -->
+    <string name="pref_year_default" translatable="false" >2018</string>
+
+
+    <!-- Label for the month preference [CHAR LIMIT=30] -->
+    <string name="pref_month_label">Month Note</string>
+
+    <!-- Key name for storing month in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_month_key" translatable="false" >Mois</string>
+
+    <!-- Default month preference [CHAR LIMIT=NONE] -->
+    <string name="pref_month_default" translatable="false">1</string>
+
+
+    <!-- Label for the telephone etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_telephone_label">Phone</string>
+
+    <!-- Key name for storing telephone in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_telephone_key" translatable="false">Telephone</string>
+
+    <!-- Default telephone preference [CHAR LIMIT=NONE] -->
+    <string name="pref_telephone_default" translatable="false">00000</string>
+
+
+    <!-- Label for the Operateur etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_operateur_label">Operator</string>
+
+    <!-- Key name for storing operateur in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_operateur_key" translatable="false">Operateur</string>
+
+    <!-- Default operateur preference [CHAR LIMIT=NONE] -->
+    <string name="pref_operateur_default" translatable="false">mtn</string>
+
+
+    <!-- Label for the nom etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_nom_label">Last Name</string>
+
+    <!-- Key name for storing nom in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_nom_key" translatable="false">Nom</string>
+
+    <!-- Default telephone preference [CHAR LIMIT=NONE] -->
+    <string name="pref_nom_default" translatable="false">Journal</string>
+
+
+    <!-- Label for the prenom etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_prenom_label">First Name</string>
+
+    <!-- Key name for storing prenom in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_prenom_key" translatable="false">Prenom</string>
+
+    <!-- Default telephone preference [CHAR LIMIT=NONE] -->
+    <string name="pref_prenom_default" translatable="false">Note</string>
+
+
+    <!-- Label for the matricule etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_matricule_label">Matricule</string>
+
+    <!-- Key name for storing matricule in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_matricule_key" translatable="false">Matricule</string>
+
+    <!-- Default telephone preference [CHAR LIMIT=NONE] -->
+    <string name="pref_matricule_default" translatable="false">Cameroun</string>
+
+
+    <!-- Label for the Email etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_email_label">Email</string>
+
+    <!-- Key name for storing email in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_email_key" translatable="false">Email</string>
+
+    <!-- Default email preference [CHAR LIMIT=NONE] -->
+    <string name="pref_email_default" translatable="false">defaultmail@fouomene.com</string>
+
+    <!-- Label for the isdelegue etudiant preference [CHAR LIMIT=30] -->
+    <string name="pref_isdelegue_label">Delegue</string>
+
+    <!-- Key name for storing nom in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_isdelegue_key" translatable="false">IsDelegue</string>
+
+    <!-- Default telephone preference [CHAR LIMIT=NONE] -->
+    <string name="pref_isdelegue_default" translatable="false">false</string>
+
+    <!-- Label for the isadmin preference [CHAR LIMIT=30] -->
+    <string name="pref_isadmin_label">Admin</string>
+
+    <!-- Key name for storing admin in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_isadmin_key" translatable="false">IsAdmin</string>
+
+    <!-- Default telephone admin [CHAR LIMIT=NONE] -->
+    <string name="pref_isadmin_default" translatable="false">false</string>
+
+    <!-- Label for the artist preference [CHAR LIMIT=30] -->
+    <string name="pref_position_label">position</string>
+
+    <!-- Key name for storing artist in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_position_key" translatable="false">position</string>
+
+    <string name="pref_position_default" translatable="false">0</string>
+
+    <!-- Label for the intervalle preference [CHAR LIMIT=30] -->
+    <string name="pref_intervalle_label">intervalle</string>
+
+    <!-- Key name for storing intervalle in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_intervalle_key" translatable="false">intervalle</string>
+
+    <string name="pref_intervalle_default" translatable="false">900</string>
+
+    <!-- Label for the motcle preference [CHAR LIMIT=30] -->
+    <string name="pref_motcle_label">motcle</string>
+
+    <!-- Key name for storing intervalle in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_motcle_key" translatable="false">motcle</string>
+
+    <string name="pref_motcle_default" translatable="false">vide</string>
+
+    <!-- Label for the motcle preference [CHAR LIMIT=30] -->
+    <string name="pref_monmotcle_label">My search keyword</string>
+
+    <!-- Key name for storing intervalle in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_monmotcle_key" translatable="false">monmotcle</string>
+
+    <string name="pref_monmotcle_default" translatable="false">vide</string>
+
+    <string name="pref_APIURL_label" translatable="false">APIURL</string>
+    <string name="pref_APIURL_key" translatable="false">APIURL</string>
+    <string name="pref_APIURL_default" translatable="false">http://freelancertech.net/taxi/web/taxiapp/taximen/</string>
+
+    <string name="pref_urlApiInfosFlash_label" translatable="false">urlApiInfosFlash</string>
+    <string name="pref_urlApiInfosFlash_key" translatable="false">urlApiInfosFlash</string>
+    <string name="pref_urlApiInfosFlash_default" translatable="false">http://37.187.88.37:8080/journalapp/api</string>
+
+    <string name="pref_urlserveurimage_label" translatable="false">urlserveurimage</string>
+    <string name="pref_urlserveurimage_key" translatable="false">urlserveurimage</string>
+    <string name="pref_urlserveurimage_default" translatable="false">http://freelancertech.net</string>
+
+    <string name="pref_urlsendnotificationpush_label" translatable="false">urlsendnotificationpush</string>
+    <string name="pref_urlsendnotificationpush_key" translatable="false">urlsendnotificationpush</string>
+    <string name="pref_urlsendnotificationpush_default" translatable="false">http://fouomene.com/journal/push_notification.php</string>
+
+    <string name="pref_urlregisternotification_label" translatable="false">urlregisternotification</string>
+    <string name="pref_urlregisternotification_key" translatable="false">urlregisternotification</string>
+    <string name="pref_urlregisternotification_default" translatable="false">http://fouomene.com/journal/register.php</string>
+
+    <string name="pref_versionurl_label" translatable="false">versionurl</string>
+    <string name="pref_versionurl_key" translatable="false">versionurl</string>
+    <string name="pref_versionurl_default" translatable="false">0</string>
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">journal.freelancertech.net</string>
+    <string name="content_authority">net.freelancertech.journal.app</string>
+    <string name="textload">Subject</string>
+    <string name="textmessage">News</string>
+    <string name="nodoodlefound">No New Found This Month</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification"> <xliff:g id="title">%1$s</xliff:g> Date: <xliff:g id="rundate">%2$s</xliff:g></string>
+
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">Auto Notification</string>
+
+    <string name="pref_enable_notifications_true">Activate</string>
+    <string name="pref_enable_notifications_false">Disable</string>
+    <string name="pref_enable_notifications_default" translatable="false">true</string>
+    <string name="title_activity_login">Journal Doodle</string>
+    <string name="title_activity_send">Add Note </string>
+    <string name="logintel_activity_sabonner"><u>Register</u></string>
+
+    <string name="notify"> New(s) Journal Doodle</string>
+    <string name="motdepasse">Password :</string>
+    <string name="login">Login</string>
+    <string name="suivant">Next</string>
+    <string name="abonner">Subscribe</string>
+    <string name="numerotelephone">Enter your mobile phone number</string>
+    <string name="addressemail">Enter your email</string>
+    <string name="slogan">And news come to you...</string>
+    <string name="message">Compose your note* :</string>
+    <string name="objet">Note TiTle* :</string>
+
+    <string name="objetmajuscule">NOTE TITLE :</string>
+    <string name="messagemauscule">DETAIL :</string>
+    <string name="date">DATE :</string>
+    <string name="detail">DETAIL :</string>
+
+
+    <!-- message Login-->
+    <string name="login_activity_message1">Please enter your Email and Password!!</string>
+    <string name="login_activity_message2">Unknown email !!</string>
+    <string name="login_activity_message3">Please enter your Password !!</string>
+    <string name="login_activity_message4">The Email don\'t match!</string>
+
+    <!-- message main-->
+    <string name="main_activity_message1">Sorry, you are not allowed.</string>
+    <string name="main_activity_message2">Account deleted !!</string>
+
+    <!-- message send-->
+    <string name="send_activity_message2">Note successfully save !!</string>
+
+    <string name="send_activity_message5">Please enter the title and body !!</string>
+
+
+    <string name="system_message_internet">Your internet connection is very slow, check and try again !!</string>
+
+
+    <string name="system_message_server">Server Unavailable at the moment!!!</string>
+
+    <string name="system_message_internet2">No Internet connexion</string>
+
+    <string name="system_message_internet3">Could not display comments, No Internet connexion</string>
+
+    <string name="photo_message_internet1">Error during update, Remote Server Unavailable at the moment!!!</string>
+    <string name="photo_message_internet2">Starting Update</string>
+    <string name="photo_message_internet3">You must select a picture in the gallery before the update !</string>
+    <string name="photo_message_internet4">You haven\'t select a picture !</string>
+    <string name="photo_message_internet5">Something went wrong !</string>
+    <string name="photo_message_internet6">Call the transferred!</string>
+    <string name="photo_message_internet7">Update Ongoing...</string>
+    <string name="photo_message_internet8">Update Completed !</string>
+
+    <!-- message inscription-->
+
+    <string name="incscription_activity_infoetudiant">Information</string>
+    <string name="inscription_activity_pays">Coundry*</string>
+    <string name="inscription_activity_telephone">Mobile Phone Number*</string>
+    <string name="inscription_activity_telephone_operateur">Your phone number operator*</string>
+    <string name="inscription_activity_nom">Name*</string>
+    <string name="inscription_activity_prenom">First Name*</string>
+    <string name="inscription_activity_matricule">Matricule*</string>
+    <string name="inscription_activity_email">Email*</string>
+    <string name="inscription_activity_motdepasse">Password*</string>
+    <string name="inscription_activity_confirmermotdepasse">Repeat Password*</string>
+    <string name="inscription_activity_enregister">Save</string>
+    <string name="inscription_activity_annuler">Cancel</string>
+    <string name="inscription_activity_select_pays">Select your country</string>
+    <string name="inscription_activity_message7">Please select or enter all mandatory fields!!</string>
+    <string name="inscription_activity_message8">Password mistmatch!!</string>
+    <string name="inscription_activity_message9">Wrong mobile phone format</string>
+    <string name="inscription_activity_message10">Subscription Completed,</string>
+    <string name="inscription_activity_message11">Welcome</string>
+    <string name="inscription_activity_message12">Sorry, but this e-mail address is invalid !!</string>
+    <string name="titlebar_main_activity">List of notes</string>
+    <string name="inscription_activity_titlebar">Registration</string>
+    <string name="detail_activity_titlebar">Detail</string>
+    <string name="send_activity_titlebar">Add note</string>
+
+
+
+    <string name="titleabonner">Field : (*)required.</string>
+
+<string name="profil_activity_titlebar">My Profile</string>
+    <string name="detail_profil_activity_titlebar">Detail Profile</string>
+    <string name="pays_activity_titlebar">Select your country</string>
+    <string name="profil_activity_message1">Profile picture</string>
+    <string name="profil_activity_message3">Unable to change your phone number. To change your phone number, delete your account and re-create your account with the new number.</string>
+
+    <string name="editer">Edit</string>
+    <string name="edition">EDITION</string>
+    <string name="newvalue">New Value</string>
+
+
+
+    <string name="nav_libelle_compte">Account</string>
+    <string name="nav_libelle_help">Help and Rule</string>
+
+    <string name="commenter_information">Comment</string>
+    <string name="votre_commentaire">Enter your comment:</string>
+    <string name="actuliser_commentaire">Refresh comments</string>
+    <string name="commentaires">COMMENTS :</string>
+    <string name="signaler_detail"><![CDATA[> ]]>  <u>Edit</u></string>
+    <string name="supprimer_detail"><![CDATA[> ]]>  <u>Delete</u></string>
+
+    <string name="commentaire">COMMENT</string>
+    <string name="commenter">Comment</string>
+    <string name="commentaire_publie">Comment published !!</string>
+
+    <string name="raison">REASON</string>
+    <string name="signaler">Report</string>
+
+    <string name="vide">Should not be empty</string>
+
+    <string name="auteurs">Author : FOUOMENE PEWO Daniel Rene</string>
+    <string name="pageaccueil">www.fouomene.net</string>
+
+    <string name="banner_ad_unit_id" translatable="false" >xxxxxxxxx</string>
+
+    <string name="telephone">Official Application</string>
+    <string name="email">fouomenedaniel@gmail.com</string>
+
+
+    <string-array name="country_names" >
+        <item>Cameroon</item>
+        <item>Gabon</item>
+        <item>Afghanistan</item>
+        <item>South Africa</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Germany</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antigua and Barbuda</item>
+        <item>Saudi Arabia</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Ascension</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Belarus</item>
+        <item>Burma</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>BurkinaFaso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>CAR</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Cyprus</item>
+        <item>British</item>
+        <item>Comoros</item>
+        <item>Democratic Republic of Congo</item>
+        <item>Congo Republic</item>
+        <item>ÎlesCook</item>
+        <item>North Korea</item>
+        <item>South Korea</item>
+        <item>Costa Rica</item>
+        <item>Ivory Coast</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curaçao</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominican Republic</item>
+        <item>Dominique</item>
+        <item>Egypt</item>
+        <item>Emirates</item>
+        <item>Ecuador</item>
+        <item>Eritrea</item>
+        <item>Spain</item>
+        <item>Estonia</item>
+        <item>US</item>
+        <item>Ethiopia</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Granada</item>
+        <item>Greenland</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Equatorial Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iraq</item>
+        <item>Iran</item>
+        <item>Ireland</item>
+        <item>Iceland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kyrgyzstan</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Lesotho</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malaysia</item>
+        <item>Malawi</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Falkland</item>
+        <item>Malta</item>
+        <item>Mariana Islands</item>
+        <item>Morocco</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Maurice</item>
+        <item>Mauritania</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norway</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Oman</item>
+        <item>Uganda</item>
+        <item>Uzbekistan</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Netherlands</item>
+        <item>Netherlands BasCaribéens</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Polynesia</item>
+        <item>PORTORICO</item>
+        <item>Portugal351</item>
+        <item>Qatar</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>UK</item>
+        <item>Russian</item>
+        <item>Rwanda</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Helena</item>
+        <item>Saint Lucia</item>
+        <item>San Marino</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Solomon</item>
+        <item>Salvador</item>
+        <item>Samoa</item>
+        <item>American Samoa</item>
+        <item>Sao Tome and Principe</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierraleone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Somalia</item>
+        <item>Sudan</item>
+        <item>South Sudan</item>
+        <item>Sri Lanka</item>
+        <item>Sweden</item>
+        <item>Swiss</item>
+        <item>Suriname</item>
+        <item>Swaziland</item>
+        <item>Syria</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Taiwan Republic of China</item>
+        <item>Chad</item>
+        <item>Czech Republic</item>
+        <item>Indian</item>
+        <item>Christmas Island</item>
+        <item>Thailand</item>
+        <item>TimorOriental</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkmenistan</item>
+        <item>Islands Turkey and Caicos</item>
+        <item>Turkey</item>
+        <item>Tuvalu</item>
+        <item>Ukraine</item>
+        <item>Uruguay</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Islands États US Virgin</item>
+        <item>British Virgin Islands</item>
+        <item>Vietnam Socialist Republic</item>
+        <item>Wallis and Futuna</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="country_codes" translatable="false">
+        <item>237</item>
+        <item>241</item>
+        <item>93</item>
+        <item>27</item>
+        <item>355</item>
+        <item>213</item>
+        <item>49</item>
+        <item>376</item>
+        <item>244</item>
+        <item>1264</item>
+        <item>1268</item>
+        <item>966</item>
+        <item>54</item>
+        <item>374</item>
+        <item>297</item>
+        <item>247</item>
+        <item>61</item>
+        <item>43</item>
+        <item>994</item>
+        <item>1242</item>
+        <item>973</item>
+        <item>880</item>
+        <item>1246</item>
+        <item>32</item>
+        <item>501</item>
+        <item>229</item>
+        <item>1441</item>
+        <item>975</item>
+        <item>375</item>
+        <item>95</item>
+        <item>591</item>
+        <item>387</item>
+        <item>267</item>
+        <item>55</item>
+        <item>673</item>
+        <item>359</item>
+        <item>226</item>
+        <item>257</item>
+        <item>855</item>
+        <item>1</item>
+        <item>238</item>
+        <item>1345</item>
+        <item>236</item>
+        <item>56</item>
+        <item>86</item>
+        <item>357</item>
+        <item>57</item>
+        <item>269</item>
+        <item>243</item>
+        <item>242</item>
+        <item>682</item>
+        <item>850</item>
+        <item>82</item>
+        <item>506</item>
+        <item>225</item>
+        <item>385</item>
+        <item>53</item>
+        <item>599</item>
+        <item>45</item>
+        <item>253</item>
+        <item>1</item>
+        <item>1767</item>
+        <item>20</item>
+        <item>971</item>
+        <item>593</item>
+        <item>291</item>
+        <item>34</item>
+        <item>372</item>
+        <item>1</item>
+        <item>251</item>
+        <item>298</item>
+        <item>679</item>
+        <item>358</item>
+        <item>33</item>
+        <item>220</item>
+        <item>995</item>
+        <item>233</item>
+        <item>350</item>
+        <item>30</item>
+        <item>147</item>
+        <item>299</item>
+        <item>590</item>
+        <item>1671</item>
+        <item>502</item>
+        <item>224</item>
+        <item>240</item>
+        <item>245</item>
+        <item>592</item>
+        <item>594</item>
+        <item>509</item>
+        <item>504</item>
+        <item>852</item>
+        <item>36</item>
+        <item>91</item>
+        <item>62</item>
+        <item>964</item>
+        <item>98</item>
+        <item>353</item>
+        <item>354</item>
+        <item>972</item>
+        <item>39</item>
+        <item>1876</item>
+        <item>81</item>
+        <item>962</item>
+        <item>7</item>
+        <item>254</item>
+        <item>996</item>
+        <item>686</item>
+        <item>383</item>
+        <item>965</item>
+        <item>856</item>
+        <item>266</item>
+        <item>371</item>
+        <item>961</item>
+        <item>231</item>
+        <item>218</item>
+        <item>423</item>
+        <item>370</item>
+        <item>352</item>
+        <item>853</item>
+        <item>389</item>
+        <item>261</item>
+        <item>60</item>
+        <item>265</item>
+        <item>960</item>
+        <item>223</item>
+        <item>500</item>
+        <item>356</item>
+        <item>1670</item>
+        <item>212</item>
+        <item>692</item>
+        <item>596</item>
+        <item>230</item>
+        <item>222</item>
+        <item>262</item>
+        <item>52</item>
+        <item>691</item>
+        <item>373</item>
+        <item>377</item>
+        <item>976</item>
+        <item>382</item>
+        <item>1664</item>
+        <item>258</item>
+        <item>264</item>
+        <item>674</item>
+        <item>977</item>
+        <item>505</item>
+        <item>227</item>
+        <item>234</item>
+        <item>683</item>
+        <item>47</item>
+        <item>687</item>
+        <item>64</item>
+        <item>968</item>
+        <item>256</item>
+        <item>998</item>
+        <item>92</item>
+        <item>680</item>
+        <item>970</item>
+        <item>7</item>
+        <item>675</item>
+        <item>595</item>
+        <item>31</item>
+        <item>599</item>
+        <item>51</item>
+        <item>63</item>
+        <item>64</item>
+        <item>48</item>
+        <item>689</item>
+        <item>1</item>
+        <item>351</item>
+        <item>974</item>
+        <item>262</item>
+        <item>40</item>
+        <item>44</item>
+        <item>7</item>
+        <item>250</item>
+        <item>1869</item>
+        <item>290</item>
+        <item>1758</item>
+        <item>378</item>
+        <item>590</item>
+        <item>508</item>
+        <item>1784</item>
+        <item>677</item>
+        <item>503</item>
+        <item>685</item>
+        <item>1684</item>
+        <item>239</item>
+        <item>221</item>
+        <item>381</item>
+        <item>248</item>
+        <item>232</item>
+        <item>65</item>
+        <item>1721</item>
+        <item>421</item>
+        <item>386</item>
+        <item>252</item>
+        <item>249</item>
+        <item>211</item>
+        <item>94</item>
+        <item>46</item>
+        <item>41</item>
+        <item>597</item>
+        <item>268</item>
+        <item>963</item>
+        <item>992</item>
+        <item>255</item>
+        <item>886</item>
+        <item>235</item>
+        <item>420</item>
+        <item>246</item>
+        <item>672</item>
+        <item>66</item>
+        <item>670</item>
+        <item>228</item>
+        <item>690</item>
+        <item>676</item>
+        <item>1868</item>
+        <item>216</item>
+        <item>993</item>
+        <item>1649</item>
+        <item>90</item>
+        <item>688</item>
+        <item>380</item>
+        <item>598</item>
+        <item>678</item>
+        <item>379</item>
+        <item>58</item>
+        <item>1340</item>
+        <item>1284</item>
+        <item>84</item>
+        <item>681</item>
+        <item>967</item>
+        <item>260</item>
+        <item>263</item>
+    </string-array>
+
+    <string-array name="country_flags" translatable="false">
+        <item>@drawable/cameroon</item>
+        <item>@drawable/gabon</item>
+        <item>@drawable/afghanistan</item>
+        <item>@drawable/south_africa</item>
+        <item>@drawable/albania</item>
+        <item>@drawable/algeria</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/andorra</item>
+        <item>@drawable/angola</item>
+        <item>@drawable/anguilla</item>
+        <item>@drawable/antiguaandbarbuda</item>
+        <item>@drawable/saudi_arabia</item>
+        <item>@drawable/argentina</item>
+        <item>@drawable/armenia</item>
+        <item>@drawable/aruba</item>
+        <item>@drawable/ascensionisland</item>
+        <item>@drawable/australia</item>
+        <item>@drawable/austria</item>
+        <item>@drawable/azerbaijan</item>
+        <item>@drawable/the_bahamas</item>
+        <item>@drawable/bahrain</item>
+        <item>@drawable/bangladesh</item>
+        <item>@drawable/barbados</item>
+        <item>@drawable/belgium_civil</item>
+        <item>@drawable/belize</item>
+        <item>@drawable/benin</item>
+        <item>@drawable/bermuda</item>
+        <item>@drawable/bhutan</item>
+        <item>@drawable/flag_of_belarus</item>
+        <item>@drawable/myanmar</item>
+        <item>@drawable/bolivia</item>
+        <item>@drawable/bosnia_and_herzegovina</item>
+        <item>@drawable/botswana</item>
+        <item>@drawable/brazil</item>
+        <item>@drawable/brunei</item>
+        <item>@drawable/bulgaria</item>
+        <item>@drawable/burkina_faso</item>
+        <item>@drawable/burundi</item>
+        <item>@drawable/cambodia</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/cape_verde</item>
+        <item>@drawable/the_cayman_islands</item>
+        <item>@drawable/the_central_african_republic</item>
+        <item>@drawable/chile</item>
+        <item>@drawable/the_peoples_republic_of_china</item>
+        <item>@drawable/cyprus</item>
+        <item>@drawable/colombia</item>
+        <item>@drawable/the_comoros</item>
+        <item>@drawable/the_democratic_republic_of_the_congo</item>
+        <item>@drawable/the_republic_of_the_congo</item>
+        <item>@drawable/the_cook_islands</item>
+        <item>@drawable/north_korea</item>
+        <item>@drawable/south_korea</item>
+        <item>@drawable/costa_rica</item>
+        <item>@drawable/cte_divoire</item>
+        <item>@drawable/croatia</item>
+        <item>@drawable/cuba</item>
+        <item>@drawable/curaao</item>
+        <item>@drawable/denmark</item>
+        <item>@drawable/djibouti</item>
+        <item>@drawable/the_dominican_republic</item>
+        <item>@drawable/dominica</item>
+        <item>@drawable/egypt</item>
+        <item>@drawable/the_united_arab_emirates</item>
+        <item>@drawable/ecuador</item>
+        <item>@drawable/eritrea</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/estonia</item>
+        <item>@drawable/the_united_states</item>
+        <item>@drawable/ethiopia</item>
+        <item>@drawable/the_faroe_islands</item>
+        <item>@drawable/fiji</item>
+        <item>@drawable/finland</item>
+        <item>@drawable/france</item>
+        <item>@drawable/the_gambia</item>
+        <item>@drawable/georgia</item>
+        <item>@drawable/ghana</item>
+        <item>@drawable/gibraltar</item>
+        <item>@drawable/greece</item>
+        <item>@drawable/grenada</item>
+        <item>@drawable/greenland</item>
+        <item>@drawable/france</item>
+        <item>@drawable/guam</item>
+        <item>@drawable/guatemala</item>
+        <item>@drawable/guinea</item>
+        <item>@drawable/equatorial_guinea</item>
+        <item>@drawable/guinea_bissau</item>
+        <item>@drawable/guyana</item>
+        <item>@drawable/france</item>
+        <item>@drawable/haiti</item>
+        <item>@drawable/honduras</item>
+        <item>@drawable/hong_kong</item>
+        <item>@drawable/hungary</item>
+        <item>@drawable/india</item>
+        <item>@drawable/indonesia</item>
+        <item>@drawable/iraq</item>
+        <item>@drawable/iran</item>
+        <item>@drawable/ireland</item>
+        <item>@drawable/iceland</item>
+        <item>@drawable/israel</item>
+        <item>@drawable/italy</item>
+        <item>@drawable/jamaica</item>
+        <item>@drawable/japan</item>
+        <item>@drawable/jordan</item>
+        <item>@drawable/kazakhstan</item>
+        <item>@drawable/kenya</item>
+        <item>@drawable/kyrgyzstan</item>
+        <item>@drawable/kiribati</item>
+        <item>@drawable/kosovo</item>
+        <item>@drawable/kuwait</item>
+        <item>@drawable/laos</item>
+        <item>@drawable/lesotho</item>
+        <item>@drawable/latvia</item>
+        <item>@drawable/lebanon</item>
+        <item>@drawable/liberia</item>
+        <item>@drawable/libya</item>
+        <item>@drawable/liechtenstein</item>
+        <item>@drawable/lithuania</item>
+        <item>@drawable/luxembourg</item>
+        <item>@drawable/macau</item>
+        <item>@drawable/macedonia</item>
+        <item>@drawable/madagascar</item>
+        <item>@drawable/malaysia</item>
+        <item>@drawable/malawi</item>
+        <item>@drawable/maldives</item>
+        <item>@drawable/mali</item>
+        <item>@drawable/the_falkland_islands</item>
+        <item>@drawable/malta</item>
+        <item>@drawable/northern_mariana_islands</item>
+        <item>@drawable/morocco</item>
+        <item>@drawable/the_marshall_islands</item>
+        <item>@drawable/france</item>
+        <item>@drawable/mauritius</item>
+        <item>@drawable/mauritania</item>
+        <item>@drawable/france</item>
+        <item>@drawable/mexico</item>
+        <item>@drawable/the_federated_states_of_micronesia</item>
+        <item>@drawable/moldova</item>
+        <item>@drawable/monaco</item>
+        <item>@drawable/mongolia</item>
+        <item>@drawable/montenegro</item>
+        <item>@drawable/montserrat</item>
+        <item>@drawable/mozambique</item>
+        <item>@drawable/namibia</item>
+        <item>@drawable/nauru</item>
+        <item>@drawable/nepal</item>
+        <item>@drawable/nicaragua</item>
+        <item>@drawable/niger</item>
+        <item>@drawable/nigeria</item>
+        <item>@drawable/niue</item>
+        <item>@drawable/norway</item>
+        <item>@drawable/caledonia</item>
+        <item>@drawable/new_zealand</item>
+        <item>@drawable/oman</item>
+        <item>@drawable/uganda</item>
+        <item>@drawable/uzbekistan</item>
+        <item>@drawable/pakistan</item>
+        <item>@drawable/palau</item>
+        <item>@drawable/palestine</item>
+        <item>@drawable/panama</item>
+        <item>@drawable/papua_new_guinea</item>
+        <item>@drawable/paraguay</item>
+        <item>@drawable/the_netherlands</item>
+        <item>@drawable/the_netherlands</item>
+        <item>@drawable/peru</item>
+        <item>@drawable/the_philippines</item>
+        <item>@drawable/the_pitcairn_islands</item>
+        <item>@drawable/poland</item>
+        <item>@drawable/french_polynesia</item>
+        <item>@drawable/puerto_rico</item>
+        <item>@drawable/portugal</item>
+        <item>@drawable/qatar</item>
+        <item>@drawable/france</item>
+        <item>@drawable/romania</item>
+        <item>@drawable/the_united_kingdom</item>
+        <item>@drawable/russia</item>
+        <item>@drawable/rwanda</item>
+        <item>@drawable/saint_kitts_and_nevis</item>
+        <item>@drawable/the_united_kingdom</item>
+        <item>@drawable/saint_lucia</item>
+        <item>@drawable/san_marino</item>
+        <item>@drawable/france</item>
+        <item>@drawable/saint_pierre_and_miquelon</item>
+        <item>@drawable/saint_vincent_and_the_grenadines</item>
+        <item>@drawable/the_solomon_islands</item>
+        <item>@drawable/el_salvador</item>
+        <item>@drawable/samoa</item>
+        <item>@drawable/americansamoa</item>
+        <item>@drawable/sao_tome_and_principe</item>
+        <item>@drawable/senegal</item>
+        <item>@drawable/serbia</item>
+        <item>@drawable/seychelles</item>
+        <item>@drawable/sierra_leone</item>
+        <item>@drawable/singapore</item>
+        <item>@drawable/sint_maarten</item>
+        <item>@drawable/slovakia</item>
+        <item>@drawable/slovenia</item>
+        <item>@drawable/somalia</item>
+        <item>@drawable/sudan</item>
+        <item>@drawable/south_sudan</item>
+        <item>@drawable/sri_lanka</item>
+        <item>@drawable/sweden</item>
+        <item>@drawable/switzerland</item>
+        <item>@drawable/suriname</item>
+        <item>@drawable/swaziland</item>
+        <item>@drawable/syria</item>
+        <item>@drawable/tajikistan</item>
+        <item>@drawable/tanzania</item>
+        <item>@drawable/the_republic_of_china</item>
+        <item>@drawable/chad</item>
+        <item>@drawable/the_czech_republic</item>
+        <item>@drawable/india</item>
+        <item>@drawable/christmas_island</item>
+        <item>@drawable/thailand</item>
+        <item>@drawable/east_timor</item>
+        <item>@drawable/togo</item>
+        <item>@drawable/tokelau</item>
+        <item>@drawable/tonga</item>
+        <item>@drawable/trinidad_and_tobago</item>
+        <item>@drawable/tunisia</item>
+        <item>@drawable/turkmenistan</item>
+        <item>@drawable/the_turks_and_caicos_islands</item>
+        <item>@drawable/turkey</item>
+        <item>@drawable/tuvalu</item>
+        <item>@drawable/ukraine</item>
+        <item>@drawable/uruguay</item>
+        <item>@drawable/vanuatu</item>
+        <item>@drawable/vaticancity</item>
+        <item>@drawable/venezuela</item>
+        <item>@drawable/the_united_states_virgin_islands</item>
+        <item>@drawable/the_british_virgin_islands</item>
+        <item>@drawable/vietnam</item>
+        <item>@drawable/wallis_and_futuna</item>
+        <item>@drawable/yemen</item>
+        <item>@drawable/zambia</item>
+        <item>@drawable/zimbabwe</item>
+    </string-array>
+
+
+    <string name="fichier">Tap the image to enlarge</string>
+    <string name="joindre">Attach a picture</string>
+    <string name="fichier_message_internet2">Starting</string>
+    <string name="fichier_message_internet3">You must select an image in the gallery!</string>
+    <string name="fichier_message_internet4">You haven\'t select a image !</string>
+    <string name="fichier_message_internet7">Uploading please wait...</string>
+    <string name="fichier_message_internet8">Attache done!</string>
+    <string name="fichier_message_internet1">Error attach, Server unavailable for now !!!</string>
+
+
+    <string name="telecharger">Download image</string>
+    <string name="telecharger_message">Image uploaded, please look in the directory \'journal\' of your memory.</string>
+    <string name="url">URL</string>
+    <string name="load">Please wait, loading in progress ...</string>
+    <string name="motcle">Enter a keyword</string>
+    <string name="rechercher">Search</string>
+    <string name="rechercheroffre">Search for a note</string>
+    <string name="inscription_activity_lire">Read*</string>
+    <string name="inscription_activity_termes"><u>Terms and Conditions of Use</u></string>
+    <string name="inscription_activity_accepte">Yes I read and I accept the terms and conditions.</string>
+    <string name="inscription_activity_message_confirmation">Involves that you have read and accepted the terms and conditions of use.</string>
+    <string name="inscription_activity_message13">Please read and accept the Terms and Conditions of Use!!!</string>
+    <string name="suggestion" translatable="false">fouomenedaniel@gmail.com</string>
+
+    <string name="supprimer_information_confirmation">This will remove the offer and its feedback comment.</string>
+    <string name="supprimer_commentaire_confirmation">This will delete the comment.</string>
+    <string name="entrer_votre_mot_de_passe">Enter your password</string>
+
+    <string name="supprimer">Delete</string>
+    <string name="desabonner_activity_message3">CONFIRMATION</string>
+</resources>

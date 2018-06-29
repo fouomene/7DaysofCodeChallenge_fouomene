@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+
+            android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_gravity="left"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        android:background="#6407812C"
+                       >
+
+
+                        <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                            android:id="@+id/list_item_commentaire_etudiant_textview"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/black"
+                            android:autoLink="all"
+                            android:clickable="true"
+                            android:textIsSelectable="true"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_gravity="top"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:background="#8007812C"
+                        android:layout_marginBottom="6dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+
+                            android:gravity="right">
+
+
+                            <TextView
+                                android:id="@+id/list_item_date_etudiant_commentaire_textview"
+                                android:gravity="center_horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textAppearance="?android:textAppearanceSmall"
+                                android:text="Date date date"
+                                android:layout_marginRight="10dp"
+                                />
+
+                            <TextView
+                                android:id="@+id/list_item_supprimer_commenetaire_textview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textAppearance="?android:textAppearanceSmall"
+                                android:text="@string/supprimer_detail"
+                                android:textColor="#727272"
+                                android:gravity="center_vertical"
+                                android:visibility="visible"
+
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

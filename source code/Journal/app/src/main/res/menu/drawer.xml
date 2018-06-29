@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_informations"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/titlebar_main_activity" />
+        <item
+            android:id="@+id/navigation_item_send"
+            android:icon="@drawable/ic_add_circle_black_18dp"
+            android:title="@string/title_activity_send"
+            />
+    </group>
+
+    <item android:title="@string/nav_libelle_compte">
+        <menu>
+            <item
+                android:id="@+id/navigation_item_profil"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="@string/profil_activity_titlebar"
+                />
+            <item
+                android:id="@+id/navigation_item_setting"
+                android:icon="@drawable/ic_settings_black_18dp"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/navigation_item_help"
+                android:icon="@drawable/ic_help_black_18dp"
+                android:title="@string/nav_libelle_help" />
+            <item
+                android:id="@+id/navigation_item_logout"
+                android:icon="@drawable/ic_label_outline_black_18dp"
+                android:title="@string/action_deconnexion"
+                />
+        </menu>
+    </item>
+
+</menu>

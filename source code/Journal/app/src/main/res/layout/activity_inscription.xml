@@ -1,0 +1,301 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/arbleu">
+
+        <include layout="@layout/tool_bar" />
+
+        <!-- Master layout. -->
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="top"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#c8ffffff">
+
+            <TextView
+                android:id="@+id/titletudiant_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/incscription_activity_infoetudiant"
+                android:textColor="#07812C"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/label_geo_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titleabonner"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/email_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_email"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email_editText"
+                android:layout_marginBottom="6dp"
+                android:textColor="#f90505"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/motdepasse_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_motdepasse"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/motdepasse_editText"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_marginBottom="6dp"
+                android:textColor="#f90505"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/confirmemotdepasse_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_confirmermotdepasse"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/confirmemotdepasse_editText"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_marginBottom="6dp"
+                android:textColor="#f90505"
+                android:singleLine="true"/>
+
+
+            <TextView
+                android:id="@+id/nom_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_nom"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nom_editText"
+                android:layout_marginBottom="6dp"
+                android:textColor="#f90505"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/prenom_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_prenom"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/prenom_editText"
+                android:layout_marginBottom="6dp"
+                android:textColor="#f90505"
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/pays_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_pays"
+                />
+
+            <LinearLayout
+                android:gravity="center_vertical|center"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="6dp"
+                >
+
+                <TextView
+                    android:id="@+id/select_pays_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_weight="7"
+                    android:textColor="#f90505"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscription_activity_select_pays"
+                    android:id="@+id/select_pays_button"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:minHeight="50dp"
+                    android:layout_weight="3"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tele_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_telephone"
+                />
+
+
+            <LinearLayout
+                android:gravity="center_vertical|center"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="6dp"
+                >
+
+                <TextView
+                    android:id="@+id/select_indicatif_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#f90505"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tel_editText"
+                    android:inputType="number"
+                    android:textColor="#f90505"
+                    android:layout_weight="9"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/lire_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/inscription_activity_lire"
+                />
+
+            <TextView
+                android:id="@+id/termes_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="@string/inscription_activity_termes"
+                android:textColor="#07812C"
+                android:focusable="true"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:layout_marginBottom="6dp"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscription_activity_accepte"
+                    android:id="@+id/termes_checkBox"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFF0012"
+                    android:singleLine="true"
+                    android:enabled="true"
+                    android:focusable="false"
+                    android:checked="false"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:gravity="center_vertical|center"
+                android:layout_gravity="top"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscription_activity_enregister"
+                    android:id="@+id/enregister_button"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:background="@drawable/button_boarder_blue"
+                    android:textColor="#000000"
+                    android:minHeight="40dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscription_activity_annuler"
+                    android:id="@+id/annuler_button"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:background="@drawable/button_boarder_green"
+                    android:textColor="#000000"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:minHeight="40dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
+
