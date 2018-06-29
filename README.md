@@ -49,9 +49,9 @@ Journal Doodle implements the following main concepts:
  - Broadcast Events, Notifications, ShareActionProvider and Custom Views Android.
  - SQLite databases.
  - JUnit tests.
- - Android Push Notification using Firebase. For test http://fouomene.com/journal/push_notification.php?Object=Hello
+ - Android Push Notification using Firebase.
  
-A more detailed description in this file: https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Project-Self-Evaluation-FOUOMENE-7DaysofCodeChallenge.docx
+>>>> A more detailed technique description in this file: https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Project-Self-Evaluation-FOUOMENE-7DaysofCodeChallenge.docx
  
 >>>> Journal Doodle Technical Architecture : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Architecture-Journal-Doodle.jpg
 
