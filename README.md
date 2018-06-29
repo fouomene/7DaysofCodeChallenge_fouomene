@@ -1,92 +1,80 @@
 # 7DaysofCodeChallenge_fouomene
-Android Journal Doodle App
+For the Challenge I coded two parts:
 
-# Project Title
+* Frontend (Client): Android Journal Doodle App .
+* Backend (Server): Which exposes the minimum functionality in the form of web services with Java EE.
+Ex: a web service to get all the notes of a user from his email (http://37.187.88.37:8080/journalapp/api/etudiants/informations/fouomenedaniel@gmail_com).
+The signature of the other web services is in: https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/source%20code/Journal/app/src/main/java/net/freelancertech/journal/app/api/InstantInterface.java
 
-One Paragraph of project description goes here
+But I will only describe my Android Journal Doodle application which is the object of the Challenge.
+
+# Project Title : Journal Doodle
+
+>>>> Demo video : https://youtu.be/lCF_4hPc2Ww
+
+>>>> Description of my application android Journal Doodle
+
+With Journal Doodle,
+You can add, comment and share your notes, to-do lists ... add images, URL.
+Your notes are synced across all your Android devices (phone, tablet), so you can access them wherever you are.
+Key features:
+
+GET ORGANIZED
+• Write, collect and capture ideas in the form of notes.
+• Take notes in a variety of formats, including: text, images, URLs, web captures.
+• Add, Comment and Share your notes with ease.
+
+FILTERING NOTES BY KEYWORDS
+• Find notes later using a simple keyword, month, and year search.
+
+IN OFF-CONNECTION MODE
+• Only text notes are accessible because they are stored in your Android device.
+
+SYNCHRONIZE YOUR DATA EVERYWHERE
+Journal Doodle gives you the ability to sync and comment on all your Android devices:
+• Start your task on an Android device, then continue your work on another Android device without wasting time
+
+Required conditions :
+• Android system, version 4.2 or later.
+
+>>>> Android concept implemented
+
+Journal Doodle implements the following main concepts:
+ - Register and Login using google authentication with Google Firebase Authentication email / password. https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Firebase-Authentication-Google.jpg
+ - Navigation drawer, Rich, Responsive Layouts for Android Tablet and SmartPhone.
+ - Android Permission System.
+ - HTTP requests on the Web Services with Retrofit.
+ - Android Services and SyncAdapter.
+ - Cursor Loader, URI Matcher and Content Provider.
+ - Broadcast Events, Notifications, ShareActionProvider and Custom Views Android.
+ - SQLite databases.
+ - JUnit tests.
+ - Android Push Notification using Firebase. For test http://fouomene.com/journal/push_notification.php?Object=Hello
+ 
+A more detailed description in this file: https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Project-Self-Evaluation-FOUOMENE-7DaysofCodeChallenge.docx
+ 
+>>>> Journal Doodle Technical Architecture : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Architecture-Journal-Doodle.jpg
+
+>>>> APK File : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Journal-Doodle-release.apk
+>>>> Source Code : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/tree/master/source%20code/Journal
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+git clone https://github.com/fouomene/7DaysofCodeChallenge_fouomene.git 
+
+And import in android studio projet in folder:  source code > Journal
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Android Studio
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Android Studio
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+***FOUOMENE PEWO Daniel Rene** - *Initial work* - [PurpleBooth](https://github.com/fouomene/7DaysofCodeChallenge_fouomene)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
 
