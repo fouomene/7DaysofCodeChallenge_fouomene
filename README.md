@@ -59,6 +59,7 @@ Journal Doodle implements the following main concepts:
 For Test: 
 Login : fouomenedaniel@gmail.com
 Password : testtest
+
 >>>> Source Code : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/tree/master/source%20code/Journal
 
 ## Getting Started
