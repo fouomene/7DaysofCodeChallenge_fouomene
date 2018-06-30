@@ -20,22 +20,22 @@ Your notes are synced across all your Android devices (phone, tablet), so you ca
 Key features:
 
 GET ORGANIZED
-• Write, collect and capture ideas in the form of notes.
-• Take notes in a variety of formats, including: text, images, URLs, web captures.
-• Add, Comment and Share your notes with ease.
+* Write, collect and capture ideas in the form of notes.
+* Take notes in a variety of formats, including: text, images, URLs, web captures.
+* Add, Comment and Share your notes with ease.
 
 FILTERING NOTES BY KEYWORDS
-• Find notes later using a simple keyword, month, and year search.
+* Find notes later using a simple keyword, month, and year search.
 
 IN OFF-CONNECTION MODE
-• Only text notes are accessible because they are stored in your Android device.
+* Only text notes are accessible because they are stored in your Android device.
 
 SYNCHRONIZE YOUR DATA EVERYWHERE
 Journal Doodle gives you the ability to sync and comment on all your Android devices:
-• Start your task on an Android device, then continue your work on another Android device without wasting time
+* Start your task on an Android device, then continue your work on another Android device without wasting time
 
 Required conditions :
-• Android system, version 4.2 or later.
+* Android system, version 4.2 or later.
 
 >>>> Android concept implemented
 
