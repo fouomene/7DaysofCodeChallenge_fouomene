@@ -41,7 +41,8 @@ Required conditions :
 
 Journal Doodle implements the following main concepts:
  - Register and Login using google authentication with Google Firebase Authentication email / password. https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Firebase-Authentication-Google.jpg
- - Navigation drawer, Rich, Responsive Layouts for Android Tablet and SmartPhone.
+ - Navigation drawer, Rich, Responsive Layouts for Android Tablet and SmartPhone. https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/screenshots%20tablette/home2Comment.jpg
+ - Multilingual android application : French and English.
  - Android Permission System.
  - HTTP requests on the Web Services with Retrofit.
  - Android Services and SyncAdapter.
