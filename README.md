@@ -61,6 +61,8 @@ For Test:
 Login : fouomenedaniel@gmail.com
 Password : testtest
 
+or in Google driver : https://drive.google.com/open?id=1qngGJ8EwXK_eMJI6Hv6RqZcQZQWbw0qQ
+
 >>>> Source Code : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/tree/master/source%20code/Journal
 
 ## Getting Started
