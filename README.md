@@ -8,7 +8,7 @@ The signature of the other web services is in: https://github.com/fouomene/7Days
 
 But I will only describe my Android Journal Doodle application which is the object of the Challenge.
 
-# Project Title : Journal Doodle
+# Project Android Title : Journal Doodle
 
 >>>> Demo video : https://youtu.be/lCF_4hPc2Ww
 
