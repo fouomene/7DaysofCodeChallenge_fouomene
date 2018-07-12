@@ -3,7 +3,7 @@ For the Challenge I coded two parts:
 
 * Frontend (Client): Android Journal Doodle App .
 * Backend (Server): Which exposes the minimum functionality in the form of web services with Java EE.
-Ex: a web service to get all the notes of a user from his email (http://37.187.88.37:8080/journalapp/api/etudiants/informations/fouomenedaniel@gmail_com).
+Ex: a web service to get all the notes of a user from his email .
 The signature of the other web services is in: https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/source%20code/Journal/app/src/main/java/net/freelancertech/journal/app/api/InstantInterface.java
 
 But I will only describe my Android Journal Doodle application which is the object of the Challenge.
@@ -57,9 +57,7 @@ Journal Doodle implements the following main concepts:
 >>>> Journal Doodle Technical Architecture : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Architecture-Journal-Doodle.jpg
 
 >>>> APK File : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Journal-Doodle-release.apk
-For Test: 
-Login : fouomenedaniel@gmail.com
-Password : testtest
+
 
 or in Google driver : https://drive.google.com/open?id=1qngGJ8EwXK_eMJI6Hv6RqZcQZQWbw0qQ
 
