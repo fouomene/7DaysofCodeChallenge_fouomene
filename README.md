@@ -57,7 +57,9 @@ Journal Doodle implements the following main concepts:
 >>>> Journal Doodle Technical Architecture : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Architecture-Journal-Doodle.jpg
 
 >>>> APK File : https://github.com/fouomene/7DaysofCodeChallenge_fouomene/blob/master/Journal-Doodle-release.apk
-
+ For test :
+ Login : fouomenedaniel@gmail.com
+ password : testtest
 
 or in Google driver : https://drive.google.com/open?id=1qngGJ8EwXK_eMJI6Hv6RqZcQZQWbw0qQ
 
